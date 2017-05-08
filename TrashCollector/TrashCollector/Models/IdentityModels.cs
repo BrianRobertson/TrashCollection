@@ -27,9 +27,10 @@ namespace TrashCollector.Models
 
         public static ApplicationDbContext Create()
         {
-            //Here are where the lists go.
-
             return new ApplicationDbContext();
         }
+        //Brian wrote, here are where the lists go.
+        public DbSet<Customer> Customers { get; set; }
+        //public System.Data.Entity.DbSet<Customer.Models.CustomerModel> CustomerModels { get; set; }
     }
 }

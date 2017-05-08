@@ -179,8 +179,21 @@
     <Compile Include="Migrations\201705081725492_Initial set up with Identity Model and roles..Designer.cs">
       <DependentUpon>201705081725492_Initial set up with Identity Model and roles..cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705082135404_Customer table added..cs" />
+    <Compile Include="Migrations\201705082135404_Customer table added..Designer.cs">
+      <DependentUpon>201705082135404_Customer table added..cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705082211361_Date display changed on Customer model..cs" />
+    <Compile Include="Migrations\201705082211361_Date display changed on Customer model..Designer.cs">
+      <DependentUpon>201705082211361_Date display changed on Customer model..cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201705082353139_Removed faulty controllers..cs" />
+    <Compile Include="Migrations\201705082353139_Removed faulty controllers..Designer.cs">
+      <DependentUpon>201705082353139_Removed faulty controllers..cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -258,6 +271,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201705081725492_Initial set up with Identity Model and roles..resx">
       <DependentUpon>201705081725492_Initial set up with Identity Model and roles..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705082135404_Customer table added..resx">
+      <DependentUpon>201705082135404_Customer table added..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705082211361_Date display changed on Customer model..resx">
+      <DependentUpon>201705082211361_Date display changed on Customer model..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705082353139_Removed faulty controllers..resx">
+      <DependentUpon>201705082353139_Removed faulty controllers..cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
