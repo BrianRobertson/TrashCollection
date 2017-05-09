@@ -191,9 +191,14 @@
     <Compile Include="Migrations\201705082353139_Removed faulty controllers..Designer.cs">
       <DependentUpon>201705082353139_Removed faulty controllers..cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201705090003424_Added customerscontroller..cs" />
+    <Compile Include="Migrations\201705090003424_Added customerscontroller..Designer.cs">
+      <DependentUpon>201705090003424_Added customerscontroller..cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -256,6 +261,11 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\userscontroller\Index.cshtml" />
     <Content Include="Views\Role\Index.cshtml" />
+    <Content Include="Views\Customers\Create.cshtml" />
+    <Content Include="Views\Customers\Delete.cshtml" />
+    <Content Include="Views\Customers\Details.cshtml" />
+    <Content Include="Views\Customers\Edit.cshtml" />
+    <Content Include="Views\Customers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -280,6 +290,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201705082353139_Removed faulty controllers..resx">
       <DependentUpon>201705082353139_Removed faulty controllers..cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201705090003424_Added customerscontroller..resx">
+      <DependentUpon>201705090003424_Added customerscontroller..cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
